@@ -8,6 +8,8 @@ made in a bunch of hours to test some __attiny85__ + __SSD1306 OLED screen__ stu
 
 (as a future __TODO__, the code can probably be improved, cleaned and/or expanded - maybe I'll continue this in the future, who knows...).
 
+Also check [the project page on hackaday.io](https://hackaday.io/project/186084-meteor-storm-a-microgame-for-attiny85)!
+
 ## Setup and install
 Connect an __I2C__ SSD1306-based screen to the attiny85 __SDA__ and __SCL__ pins, add one button on __PB1__ and run _make_.
 
@@ -25,6 +27,7 @@ I also wrote [the I2C driver](https://github.com/theisolinearchip/i2c_attiny85_t
 (the _wait times_ are tweaked a little bit for speed improvement - it seems to work fine with this specific screens).
 
 ## Links
+- [Project page on hackaday.io](https://hackaday.io/project/186084-meteor-storm-a-microgame-for-attiny85)
 - [Attiny Arduino Games](https://github.com/andyhighnumber/Attiny-Arduino-Games), by Andy Jackson; more attiny85-based microgames and similar stuff
 (the numbers font I'm using here is from the font file that can be found there!).
 - My [Game of life on an attiny85](https://hackaday.io/project/181421-game-of-life-on-an-attiny85) project page on hackaday.io; I wrote some custom
